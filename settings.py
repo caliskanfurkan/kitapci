@@ -22,11 +22,11 @@ DATABASE_PORT = ''             # Set to empty string for default. Not used with 
 # If running in a Windows environment this must be set to the same as your
 # system time zone.
 
-TIME_ZONE = 'Europe/Istanbul Asia/Istanbul Turkey'
+TIME_ZONE = 'Europe/Istanbul Turkey'
 
 # Language code for this installation. All choices can be found here:
 # http://www.i18nguy.com/unicode/language-identifiers.html
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'tr-tr'
 
 SITE_ID = 1
 
@@ -77,4 +77,6 @@ INSTALLED_APPS = (
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.sites',
+    'django.contrib.admin',
+    'kitapci.app',
 )
